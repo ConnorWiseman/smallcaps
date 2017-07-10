@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+}
+
+html, body, form {
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+html, body, form, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    display: flex;
+}
+
+textarea {
+    border: 1px solid transparent;
+    flex: 1;
+    line-height: 1.6;
+    padding: 1.5em 3em;
+    resize: none;
+}
+
+textarea ~ textarea {
+    border-left: 1px solid red;
+}
